@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/themes/darkly/bootstrap.css",
               "src/styles.scss"
             ],
             "scripts": [],

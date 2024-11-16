@@ -1,0 +1,23 @@
+.spacer {
+  flex: 1;
+}
+
+.imgLogo img {
+  margin: 0 16px;
+}
+
+#linkedin-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+#github-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+#linkedin-logo:hover,
+#github-logo:hover {
+  opacity: 0.8;
+}
+

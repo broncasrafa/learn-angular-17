@@ -1,0 +1,21 @@
+<div class="bs-component">
+  <div class="alert alert-dismissible"
+    [ngClass]="{
+      'alert-primary': type === enum.primary,
+      'alert-secondary': type === enum.secondary,
+      'alert-success': type === enum.success,
+      'alert-danger': type === enum.danger,
+      'alert-warning': type === enum.warning,
+      'alert-info': type === enum.info,
+      'alert-light': type === enum.light,
+      'alert-dark': type === enum.dark
+    }">
+    @if (isDismissible) {
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    }
+    <p class="mb-0">{{message}}</p>
+  </div>
+  @if (isDismissible) {
+    <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i class="bi bi-code"></i></button>
+  }
+</div>
